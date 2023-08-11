@@ -16,7 +16,12 @@
     <ul>
       <li><a href="{% url 'page1' %}">Page 1</a></li>
       <li><a href="{% url 'page2' %}">Page 2</a></li>
+      <li>{% load static %}
+
+        <img src="{% static 'aclherLogo.jpg' %}" class="logo">
+        </li>
     </ul>
+    
   </nav>
   <main style="text-align:center;">
     <p>This is the main content of the page.</p>

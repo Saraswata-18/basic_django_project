@@ -15,6 +15,10 @@
     <ul>
       <li><a href="{% url 'index' %}">Home</a></li>
       <li><a href="{% url 'page1' %}">Page 1</a></li>
+      <li>{% load static %}
+
+        <img src="{% static 'aclherLogo.jpg' %}" class="logo">
+        </li>
     </ul>
   </nav>
   <main>

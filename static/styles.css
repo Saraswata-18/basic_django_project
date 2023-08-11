@@ -50,4 +50,12 @@ body, h1, h2, h3, p, ul, li {
     text-decoration: none;
     color: white;
   }
+  .logo {
+    float: right;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: #ffffff;
+  }
+  
   
